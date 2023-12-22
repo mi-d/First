@@ -7,7 +7,7 @@
 class ReadingManager {
 public:
 
-    static const int MAX_USER_COUNT = 100000;
+    static const int MAX_USER_COUNT = 100001;
     static const int MAX_PAGE_NUMBER = 1000;
 
     ReadingManager() : users_pages_count_(MAX_PAGE_NUMBER, 0), user_page_(MAX_USER_COUNT, 0) {}
